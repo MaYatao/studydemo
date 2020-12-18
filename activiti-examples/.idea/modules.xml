@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/activiti-api-basic-connector-example/activiti-api-basic-connector-example.iml" filepath="$PROJECT_DIR$/activiti-api-basic-connector-example/activiti-api-basic-connector-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-api-basic-full-example-bean/activiti-api-basic-full-example-bean.iml" filepath="$PROJECT_DIR$/activiti-api-basic-full-example-bean/activiti-api-basic-full-example-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-api-basic-full-example-nobean/activiti-api-basic-full-example-nobean.iml" filepath="$PROJECT_DIR$/activiti-api-basic-full-example-nobean/activiti-api-basic-full-example-nobean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-api-basic-process-example/activiti-api-basic-process-example.iml" filepath="$PROJECT_DIR$/activiti-api-basic-process-example/activiti-api-basic-process-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-api-basic-task-example/activiti-api-basic-task-example.iml" filepath="$PROJECT_DIR$/activiti-api-basic-task-example/activiti-api-basic-task-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-api-spring-integration-example/activiti-api-spring-integration-example.iml" filepath="$PROJECT_DIR$/activiti-api-spring-integration-example/activiti-api-spring-integration-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-api-web-example/activiti-api-web-example.iml" filepath="$PROJECT_DIR$/activiti-api-web-example/activiti-api-web-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-examples.iml" filepath="$PROJECT_DIR$/activiti-examples.iml" />
+    </modules>
+  </component>
+</project>

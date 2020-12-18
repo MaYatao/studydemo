@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-high-rest-client-demo" />
+        <module name="java-high-rest-client-demo (1)" />
+        <module name="java-transportClient-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-high-rest-client-demo" target="7" />
+      <module name="java-high-rest-client-demo (1)" target="7" />
+      <module name="java-transportClient-demo" target="7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+/Users/tao/Desktop/study/OpenJDK12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tao/Desktop/study/OpenJDK12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tao/Desktop/study/OpenJDK12/cmake-build-debug/CMakeFiles/OpenJDK12.dir

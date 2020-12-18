@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69216616-9420-4b0d-be3c-34472cb5e1a8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gfKoe94lvFeE9jtyEyeZvx9UDV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.MinorGC">
+    <configuration name="DirectMemoryOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.merror.DirectMemoryOOM" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-Xmx10M -XX:MaxDirectMemorySize=3M" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.merror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.gc.FinalizeEscapeGC" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.gc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.merror.HeapOOM" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.merror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaVMStackOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.merror.JavaVMStackOOM" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-Xss2M" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.merror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaVMStackSOF" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.merror.JavaVMStackSOF" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-Xss160k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.merror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaVMStackSOF1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.merror.JavaVMStackSOF1" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.merror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.Main" />
+      <module name="jvm" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinorGC" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.gc.MinorGC" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.gc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReferenceCountingGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.gc.ReferenceCountingGC" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-Xlog:gc+heap=debug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.gc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tao.jdk12.RuntimeConstantPoolOOM" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tao.jdk12.merror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DirectMemoryOOM" />
+      <item itemvalue="Application.JavaVMStackOOM" />
+      <item itemvalue="Application.JavaVMStackSOF" />
+      <item itemvalue="Application.RuntimeConstantPoolOOM" />
+      <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.JavaVMStackSOF1" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ReferenceCountingGC" />
+      <item itemvalue="Application.FinalizeEscapeGC" />
+      <item itemvalue="Application.MinorGC" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReferenceCountingGC" />
+        <item itemvalue="Application.FinalizeEscapeGC" />
+        <item itemvalue="Application.HeapOOM" />
+        <item itemvalue="Application.JavaVMStackSOF1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69216616-9420-4b0d-be3c-34472cb5e1a8" name="Default Changelist" comment="" />
+      <created>1598500382538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598500382538</updated>
+      <workItem from="1598506712760" duration="5002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="338" y="0" key="#DirectMemoryOOM" timestamp="1598510058342">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="0" key="#DirectMemoryOOM/0.0.1440.900@0.0.1440.900" timestamp="1598510058342" />
+    <state x="338" y="0" key="#JavaVMStackOOM" timestamp="1598508136802">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="0" key="#JavaVMStackOOM/0.0.1440.900@0.0.1440.900" timestamp="1598508136802" />
+    <state x="338" y="0" key="#JavaVMStackSOF" timestamp="1598507966470">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="0" key="#JavaVMStackSOF/0.0.1440.900@0.0.1440.900" timestamp="1598507966470" />
+    <state x="338" y="0" key="#MinorGC" timestamp="1598521840091">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="0" key="#MinorGC/0.0.1440.900@0.0.1440.900" timestamp="1598521840091" />
+    <state x="338" y="0" key="#RuntimeConstantPoolOOM" timestamp="1598508852073">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="0" key="#RuntimeConstantPoolOOM/0.0.1440.900@0.0.1440.900" timestamp="1598508852073" />
+    <state x="193" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598520790145">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="193" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598520790145" />
+    <state x="445" y="326" width="550" height="260" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598510445353">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="445" y="326" width="550" height="260" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1598510445353" />
+    <state width="1380" height="353" key="GridCell.Tab.0.bottom" timestamp="1598581426180">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598581426180" />
+    <state width="1380" height="282" key="GridCell.Tab.0.bottom/52.23.1388.877@52.23.1388.877" timestamp="1598520642108" />
+    <state width="1380" height="282" key="GridCell.Tab.0.bottom/54.23.1386.877@54.23.1386.877" timestamp="1598510237566" />
+    <state width="1380" height="353" key="GridCell.Tab.0.center" timestamp="1598581426176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598581426176" />
+    <state width="1380" height="282" key="GridCell.Tab.0.center/52.23.1388.877@52.23.1388.877" timestamp="1598520642104" />
+    <state width="1380" height="282" key="GridCell.Tab.0.center/54.23.1386.877@54.23.1386.877" timestamp="1598510237561" />
+    <state width="1380" height="353" key="GridCell.Tab.0.left" timestamp="1598581426175">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598581426175" />
+    <state width="1380" height="282" key="GridCell.Tab.0.left/52.23.1388.877@52.23.1388.877" timestamp="1598520642103" />
+    <state width="1380" height="282" key="GridCell.Tab.0.left/54.23.1386.877@54.23.1386.877" timestamp="1598510237559" />
+    <state width="1380" height="353" key="GridCell.Tab.0.right" timestamp="1598581426178">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598581426178" />
+    <state width="1380" height="282" key="GridCell.Tab.0.right/52.23.1388.877@52.23.1388.877" timestamp="1598520642105" />
+    <state width="1380" height="282" key="GridCell.Tab.0.right/54.23.1386.877@54.23.1386.877" timestamp="1598510237562" />
+    <state width="1380" height="353" key="GridCell.Tab.1.bottom" timestamp="1598581426183">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598581426183" />
+    <state width="1380" height="353" key="GridCell.Tab.1.center" timestamp="1598581426181">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1598581426181" />
+    <state width="1380" height="353" key="GridCell.Tab.1.left" timestamp="1598581426181">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1598581426181" />
+    <state width="1380" height="353" key="GridCell.Tab.1.right" timestamp="1598581426182">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1380" height="353" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1598581426182" />
+    <state x="0" y="0" width="780" height="900" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598508842988">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="780" height="900" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1598508842988" />
+    <state x="356" y="74" width="727" height="788" key="find.popup" timestamp="1598507019073">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="356" y="74" width="727" height="788" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1598507019073" />
+  </component>
+</project>

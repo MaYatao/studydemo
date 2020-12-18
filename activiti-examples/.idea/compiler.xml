@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activiti-api-basic-task-example" />
+        <module name="activiti-api-basic-connector-example" />
+        <module name="activiti-api-spring-integration-example" />
+        <module name="activiti-api-basic-full-example-bean" />
+        <module name="activiti-api-web-example" />
+        <module name="activiti-api-basic-full-example-nobean" />
+        <module name="activiti-api-basic-process-example" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activiti-api-basic-connector-example" target="1.5" />
+      <module name="activiti-api-basic-full-example-bean" target="1.5" />
+      <module name="activiti-api-basic-full-example-nobean" target="1.5" />
+      <module name="activiti-api-basic-process-example" target="1.5" />
+      <module name="activiti-api-basic-task-example" target="1.5" />
+      <module name="activiti-api-spring-integration-example" target="1.5" />
+      <module name="activiti-api-web-example" target="1.5" />
+      <module name="activiti-examples" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
